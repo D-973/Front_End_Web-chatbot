@@ -1,0 +1,107 @@
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+/* Apply a purple color to all headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #a569bd; /* Purple color */
+}
+
+.containerbot {
+  border: 2px solid #a569bd;
+  background-color: #d2b4de;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #7d3c98;
+  background-color: #af7ac5;
+}
+
+.containerbot::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.containerbot img {
+  float: left;
+  max-width: 70px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 70%;
+}
+
+.containerbot img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: #bdc3c7;
+}
+
+.time-left {
+  float: left;
+  color: #ecf0f1;
+}
+.bg-purple {
+  background-color: #a569bd; /* Set the desired shade of purple */
+  color: #fff; /* Set the text color to white or another contrasting color */
+}
+.input-group input:focus,
+.input-group input:active {
+  border-color: #a569bd;
+  box-shadow: 0 0 10px rgba(165, 105, 189, 0.5);
+}
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #a569bd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-box {
+  margin: 2px 40px 2px 2px; /* Set margin for all sides */
+  background-color: #d1aad1; /* Pastel Purple Box Color */
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.sidebar-box a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.purple-container {
+  background-color: #a569bd; /* Purple color */
+  padding: 20px; /* Increased padding for better spacing */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center; /* Center align the text */
+}
+
+.purple-container h2 {
+  color: white;
+  margin-bottom: 10px; /* Add margin below the heading */
+}
+
+.purple-container p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 2px 2px 20px !important; /* Add !important to override other styles */
+}
